@@ -10,6 +10,6 @@
     <depends>org.jetbrains.kotlin</depends>
 
     <extensions defaultExtensionNs="com.jetbrains.kotlin">
-        <j2kPreprocessorExtension implementation="com.github.ermattt.j2kextensions.preprocessors.AnnotateParametersNonNullWhenExplicitlyDereferenced"/>
+        <j2kPreprocessorExtension implementation="com.github.ermattt.j2kextensions.preprocessors.AnnotateParametersCheckedForNull"/>
     </extensions>
 </idea-plugin>
